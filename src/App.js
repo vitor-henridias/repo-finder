@@ -1,11 +1,14 @@
-import React from 'react';
+import React from 'react'
+import PageRoutes from './routes'
+import GlobalStyle from './styles/global'
 
 function App() {
   return (
-    <div>
-      <h1>Projeto</h1>
-    </div>
-  );
+    <>
+      <PageRoutes />
+      <GlobalStyle />
+    </>
+  )
 }
 
-export default App;
+export default App
